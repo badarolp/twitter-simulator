@@ -1,8 +1,15 @@
 import React from 'react';
+import Layout from './components/Layout';
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
-    <h1>Teste</h1>
+    <>
+      <Layout>
+        <h1>Teste</h1>
+      </Layout>
+      <GlobalStyle />
+    </>
   );
 }
 
